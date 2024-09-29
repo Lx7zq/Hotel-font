@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import RoomCard from "./RoomCard"; // ตรวจสอบให้แน่ใจว่าชื่อไฟล์ตรง
+import RoomCard from "./roomcard";
 import RoomService from "../services/room.service";
 
 const RoomList = () => {
